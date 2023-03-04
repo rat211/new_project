@@ -26,6 +26,10 @@ class Library
 		{
 			System.out.println("Fine charged: "+fine);
 		}
+		else
+		{
+			System.out.println("No fine charged");
+		}
 	}
 	void display()
 	{
