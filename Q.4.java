@@ -28,7 +28,7 @@ class Polygon
 		{
 			for(int cols = 1;cols<=rows; cols++)
 			{
-				System.out.print("*");
+				System.out.print("* ");
 			}
 			System.out.println();
 		}
