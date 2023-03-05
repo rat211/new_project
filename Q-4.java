@@ -6,7 +6,7 @@ class Shape
 	{
 		for(int i=1;i<=n;i++)
 		{
-			for(int j=1;j<=n;j++);
+			for(int j=1;j<=n;j++)
 			{
 				System.out.print(ch);
 			}
@@ -15,9 +15,9 @@ class Shape
 	}
 	void polygon(int x,int y)
 	{
-		for(int i=1;i<=y;i++)
+		for(int i=1;i<=x;i++)
 		{
-			for(int j=1;j<=x;j++)
+			for(int j=1;j<=y;j++)
 			{
 				System.out.print("@");
 			}
